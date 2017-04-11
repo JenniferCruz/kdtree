@@ -5,8 +5,8 @@
  * (sames as PointSET).
  *
  * A 2d-tree is a generalization of a BST to two-dimensional keys.
- * The idea is to build a BST with points in the nodes,
- * using the x- and y-coordinates of the points as keys in strictly alternating sequence.
+ * The idea is to build a BST with points in the nodes, using
+ * the x- and y-coordinates of the points as keys in strictly alternating sequence.
  *
  * The prime advantage of a 2d-tree over a BST
  * is that it supports efficient implementation of range search and nearest neighbor search.
@@ -15,6 +15,7 @@
  * The root corresponds to the unit square;
  * the left and right children of the root corresponds
  * to the two rectangles split by the x-coordinate of the point at the root; and so forth.
+ * http://coursera.cs.princeton.edu/algs4/assignments/kdtree.html
  ******************************************************************************/
 package com.cruzn;
 
